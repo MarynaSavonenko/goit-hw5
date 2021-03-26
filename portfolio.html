@@ -193,17 +193,67 @@
 </section>
 </main>
 <footer class="footer">
-    <div class="conteiner">
-  <div class="footer__primary">
-    <a href="/" class="footer-logo"><span>Web</span>Studio</a>
-  <address class="adress">г. Киев, пр-т Леси Украинки, 26
-  </address>
-  <ul class="footer-list">        
-      <li  ><a href="tel:+30961111111"  class="contacts-footer"  >+38 096 111 11 11</a></li>
-      <li  > <a href="mailto:info@devstudio.com"  class="contacts-footer" >info@devstudio.com</a></li>
-  </ul>
-  </div>
-</div>
+    <div class="footer__container">
+        <div class="footer__element-first">
+            <a href="./index.html" class="logo logo--footer"><span class="logo__element">Web</span>Studio</a>
+            <address class="footer__address">г. Киев, пр-т Леси Украинки, 26</address>
+            <ul class="foorer__contacts">
+                <li>
+                    <a class="contacts-element contacts-element--footer" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                    <a class="contacts-element contacts-element--footer" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__element-second">
+            <h2 class="footer__title">присоединяйтесь</h2>
+            <ul class="footer__social-list">
+                <li>
+                    <a class="footer__social-element" href="">
+                        <svg class="footer__icon">
+                            <use href="./sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__social-element" href="">
+                        <svg class="footer__icon">
+                            <use href="./sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__social-element" href="">
+                        <svg class="footer__icon">
+                            <use href="./sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__social-element" href="">
+                        <svg class="footer__icon">
+                            <use href="./sprite.svg#linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__element-third">
+            <h2 class="footer__title" >Подпишитесь на рассылку</h2>
+            <label>
+                <input class="footer__blank" placeholder="E-mail" type="email">
+            </label>
+            <button class="footer__button" type="submit">
+                Подписаться
+                <span class="footer__submit">
+                    <svg class="footer__icon--secondary">
+                        <use href="./sprite.svg#icon send" ></use>
+                    </svg>
+                </span>
+            </button>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
